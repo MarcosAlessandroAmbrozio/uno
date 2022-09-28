@@ -1,0 +1,45 @@
+[
+    "Segunda-feira",
+    "Terça-feira",
+    "Quarta-feira",
+    "Quinta-feira",
+    "Sexta-feira",
+    "Sábado",
+    "Domingo"
+
+
+]
+[
+     33, 
+     "Segunda-feira",
+     true,
+     1.76
+]
+
+var funcionarios ='
+{
+    "Segunda-feira" : "Unochapecó",
+    "Terça-feira"   : "Unochapecó",
+    "Quarta-feira"  : "Unochapecó",
+    "Quinta-feira"  : "Unochapecó",
+    "Sexta-feira"   : "Unochapecó",
+    "Sábado"        : "Unochapecó",
+    "Domingo"       : "Unochapecó", 
+}';
+
+"empregado" :[
+    "nome" : "João", "Idade" : 32
+]
+
+"empregados" :[
+    {"nome" : "João", "Idade" : 32}
+    {"nome" : "Cleber", "Idade" : 22}
+    {"nome" : "Matheus", "Idade" : 21}
+    {"nome" : "Marcos", "Idade" : 20}
+    {"nome" : "Paulo", "Idade" : 19}
+]
+
+var funcionarios = JSON.parse(funcionarios);
+alert(funcionarios.Joao);
+alert(funcionarios.Joao.Idade);
+alert(funcionarios.Joao.Cidade);
