@@ -1,0 +1,11 @@
+#imglamp{
+    
+    transform: rotate(180deg);
+    margin-left:550px;
+    margin-top:0px;
+}
+.btn{
+    background-color: red;
+    color: white;
+    border-color:white;
+}
